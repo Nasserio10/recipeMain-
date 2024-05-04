@@ -1,0 +1,62 @@
+:root{
+  --White: hsl(0, 0%, 100%);
+  --RoseWhite: hsl(330, 100%, 98%);
+  --Eggshell: hsl(30, 54%, 90%);
+  --LightGrey: hsl(30, 18%, 87%);
+  --WengeBrown: hsl(30, 10%, 34%);
+  --DarkCharcoal: hsl(24, 5%, 18%);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(243, 230, 216);
+  font-family: 'Outfit',sans-serif;
+  font-size: 13px;
+}
+/* .description ,.Preparation,.Ingredients,.Instructions,.Nutrition,.omelette{
+  width: 80%
+} */
+.omelette{
+  width: 80%;
+  /* height: 400px; */
+  border-radius: 1.3rem;
+  margin-bottom: 10px;
+}
+.Preparation{
+  margin: 10px 0;
+  background-color: var(--RoseWhite);
+  border-radius:4px;
+  padding-left: 10px;
+}
+.Preparation ul{
+  padding-left: 30px;
+}
+hr {
+  color: hsl(30, 18%, 87%);
+  border: 1px solid hsl(30, 18%, 87%);
+  background-color: hsl(30, 18%, 87%);
+}
+h3,h1,h2{
+  font-family: 'Young Serif regular','Arial',sans-serif;
+  font-size: 400;
+}
+.container{
+  border-radius: 1.3rem;
+  max-width:500px ;
+  /* height: 100vh; */
+  margin: 50px auto 50px auto;
+  background-color:  var(--White);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  line-height: 1.5;
+
+}
+tr{
+  column-gap: 30px;
+  }
